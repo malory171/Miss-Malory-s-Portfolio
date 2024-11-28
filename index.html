@@ -20,7 +20,7 @@
       crossorigin="anonymous"
     ></script>
     <title>Malory Mézierre</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-sm fixed-top bg-body-tertiary mb-5">
@@ -40,15 +40,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About me</a>
+              <a class="nav-link" href="/about.html">About me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html#contact">Contact me</a>
+              <a class="nav-link" href="/about.html#contact">Contact me</a>
             </li>
           </ul>
         </div>
@@ -63,45 +61,96 @@
     </div>
     <div class="container">
       <div class="row mt-4 mb-3">
-        <div class = "col-md-6">
-          <img src="images/travel_guide_app.png"
-          class="img-fluid rounded shadow p-2 mt-2 mb-2 border"/>
+        <div class="col-md-6 d-none d-md-block">
+          <img
+            src="images/travel_guide_app.png"
+            class="img-fluid rounded shadow p-2 mt-2 mb-2 border"
+          />
         </div>
-        <div class = "col-md-6">
-          <h2 class= "mt-5 app-info"><strong>  Travel App</strong><h2/>
+        <div class="col-md-6">
+          <h2 class="mt-5 app-info"><strong>Travel App</strong></h2>
           <p class="app-info">
-            <strong>AI Travel Guide</strong> is a simple, user-friendly app that delivers quick facts about any country. Enter a country name to instantly learn about its population, main languages, traditional cuisine, and famous attractions. Perfect for travelers or curious minds, the app provides essential information in seconds, helping you explore destinations effortlessly. Whether you’re planning a trip or just expanding your knowledge, AI Travel Guide is a handy tool to discover the world’s basics with ease. Start your journey today!</p>
-          <a class="btn custom-btn p-3 app-info" href="https://miss-malory-s-ai-travel-guide.netlify.app/" role="button" target="_blank">Launch Travel App</a>
-        </div>
-      </div>    
-      <div class="row mt-4 mb-3">
-        <div class = "col-md-6">
-          <h2 class= "mt-5 app-info"><strong>Clock App</strong><h2/>
-          <p class="app-info">
-            <strong>World Clock</strong> is a user-friendly app designed to display the current time across preselected countries while allowing you to set your own location from a dropdown menu. Perfect for managing schedules, planning travel, or staying connected globally, the app ensures you're always aware of the time differences. With its clean design and intuitive interface, World Clock makes it easy to keep track of time zones at a glance, helping you stay organized no matter where you are.</p>
-          <a class="btn custom-btn p-3 app-info" href="https://miss-malory-s-world-clock.netlify.app/" role="button" target="_blank">Launch Clock App</a>
-        </div>  
-        <div class = "col-md-6">
-          <img src="images/world_clock_app.png"
-          class="img-fluid rounded shadow p-2 mt-2 mb-2 border"/>
+            <strong>AI Travel Guide</strong> is a simple, user-friendly app that
+            delivers quick facts about any country. Enter a country name to
+            instantly learn about its population, main languages, traditional
+            cuisine, and famous attractions. Perfect for travelers or curious
+            minds, the app provides essential information in seconds, helping
+            you explore destinations effortlessly. Whether you’re planning a
+            trip or just expanding your knowledge, AI Travel Guide is a handy
+            tool to discover the world’s basics with ease. Start your journey
+            today!
+          </p>
+          <a
+            class="btn custom-btn p-3 app-info"
+            href="https://miss-malory-s-ai-travel-guide.netlify.app/"
+            role="button"
+            target="_blank"
+            >Launch Travel App</a
+          >
         </div>
       </div>
       <div class="row mt-4 mb-3">
-        <div class = "col-md-6">
-          <img src="images/weather_app.png"
-          class="img-fluid rounded shadow p-2 mt-2 mb-2 border"/>
-        </div>
-        <div class = "col-md-6">
-          <h2 class= "mt-5 app-info"><strong>Weather App</strong><h2/>
+        <div class="col-md-6">
+          <h2 class="mt-5 app-info"><strong>Clock App</strong></h2>
           <p class="app-info">
-            <strong>Weather App</strong> offers current weather details and a 4-day forecast for any location you enter. After searching for a city, you’ll see the current temperature, conditions, and a 4-day outlook featuring weather icons, along with the daily minimum and maximum temperatures. The app’s clean, simple interface makes it easy to access key weather information, helping you stay prepared for both today’s weather and the upcoming days. Perfect for quick, accurate updates wherever you are.
-            </p>
-          <a class="btn custom-btn p-3 app-info" href="https://miss-malory-s-weather-app.netlify.app/" role="button" target="_blank">Launch Weather App</a>
-        </div>  
+            <strong>World Clock</strong> is a user-friendly app designed to
+            display the current time across preselected countries while allowing
+            you to set your own location from a dropdown menu. Perfect for
+            managing schedules, planning travel, or staying connected globally,
+            the app ensures you're always aware of the time differences. With
+            its clean design and intuitive interface, World Clock makes it easy
+            to keep track of time zones at a glance, helping you stay organized
+            no matter where you are.
+          </p>
+          <a
+            class="btn custom-btn p-3 app-info"
+            href="https://miss-malory-s-world-clock.netlify.app/"
+            role="button"
+            target="_blank"
+            >Launch Clock App</a
+          >
+        </div>
+        <div class="col-md-6 d-none d-md-block">
+          <img
+            src="images/world_clock_app.png"
+            class="img-fluid rounded shadow p-2 mt-2 mb-2 border"
+          />
+        </div>
       </div>
-    </div> 
-    <footer class="mt-4 mb-4 p-4 d-flex justify-content-center"><strong>I hope you enjoy using and discovering these tools as much as I enjoyed creating them. 
-      Happy exploring! ✈️🌍🌴</strong></footer>
-        
+      <div class="row mt-4 mb-3">
+        <div class="col-md-6 d-none d-md-block">
+          <img
+            src="images/weather_app.png"
+            class="img-fluid rounded shadow p-2 mt-2 mb-2 border"
+          />
+        </div>
+        <div class="col-md-6">
+          <h2 class="mt-5 app-info"><strong>Weather App</strong></h2>
+          <p class="app-info">
+            <strong>Weather App</strong> offers current weather details and a
+            4-day forecast for any location you enter. After searching for a
+            city, you’ll see the current temperature, conditions, and a 4-day
+            outlook featuring weather icons, along with the daily minimum and
+            maximum temperatures. The app’s clean, simple interface makes it
+            easy to access key weather information, helping you stay prepared
+            for both today’s weather and the upcoming days. Perfect for quick,
+            accurate updates wherever you are.
+          </p>
+          <a
+            class="btn custom-btn p-3 app-info"
+            href="https://miss-malory-s-weather-app.netlify.app/"
+            role="button"
+            target="_blank"
+            >Launch Weather App</a
+          >
+        </div>
+      </div>
+    </div>
+    <footer class="mt-4 mb-4 p-4 d-flex justify-content-center">
+      <strong
+        >I hope you enjoy using and discovering these tools as much as I enjoyed
+        creating them. Happy exploring! ✈️🌍🌴</strong
+      >
+    </footer>
   </body>
 </html>
