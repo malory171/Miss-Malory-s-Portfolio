@@ -5,6 +5,18 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 768px) {
+  h2.app-info,
+  p.app-info {
+    text-align: center;
+  }
+
+  div.app-launch {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 body {
   font-family: "Handlee", cursive;
   margin-top: 100px;
@@ -124,4 +136,8 @@ a:hover {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+footer {
+  text-align: center;
 }
