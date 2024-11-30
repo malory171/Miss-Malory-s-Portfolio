@@ -17,6 +17,15 @@
   }
 }
 
+@media (min-width: 768px) {
+  h2.app-info {
+    margin-left: 28px;
+  }
+  .custom-btn {
+    margin-left: 19px;
+  }
+}
+
 body {
   font-family: "Handlee", cursive;
   margin-top: 100px;
@@ -39,9 +48,6 @@ h1 {
 
 h2 {
   font-size: 48px;
-}
-h2.app-info {
-  margin-left: 28px;
 }
 
 h3 {
@@ -108,7 +114,6 @@ a:hover {
   color: white;
   max-width: 175px;
   text-align: center;
-  margin-left: 19px;
 }
 
 .custom-btn:hover {
