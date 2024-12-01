@@ -42,10 +42,13 @@ h3 {
   margin: 10px;
 }
 
-h1 {
+.large-text {
   font-size: 85px;
 }
 
+.small-text {
+  font-size: 53px;
+}
 h2 {
   font-size: 48px;
 }
